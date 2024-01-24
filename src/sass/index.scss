@@ -1,0 +1,21 @@
+@use 'variables' as v;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: v.$fondo;
+  background-image: url(../images/pokeFondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

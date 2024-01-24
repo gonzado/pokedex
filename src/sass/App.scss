@@ -1,0 +1,75 @@
+@use "variables" as v;
+
+.container{
+  height: 800px;
+  width: 800px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  &-card{
+    width: 50%;
+    position: relative;
+  }
+  &-btn{
+    display: flex;
+    width: 50%;
+    margin-top: 20px;
+    position: relative;
+    justify-content: space-between;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .container {
+//   // display: flex;
+//   // justify-content: space-around;
+//   // align-items: center;
+//   // height: 600px;
+//   // width: 80%;
+//   // margin: auto;
+//   // padding: 20px;
+//   width: 80%;
+//   margin: auto;
+//   text-align: center;
+//   background-color: #f0f0f0; /* Color de fondo del contenedor */
+//   padding: 20px;
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//   &-card{
+//     background-color: #0099ff; /* Color de fondo del contenedor de la tarjeta */
+//     margin-bottom: 20px;
+//     width: 100%;
+//     height: auto;
+//   }
+// }
