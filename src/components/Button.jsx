@@ -1,6 +1,6 @@
-import "../sass/Buttom.scss"
+import "../sass/Button.scss"
 
-function Buttom({icon, onClick}) {
+function Button({icon, onClick}) {
   return (
     <button 
       className="btn"
@@ -10,4 +10,4 @@ function Buttom({icon, onClick}) {
   )
 }
 
-export {Buttom}
+export {Button}
